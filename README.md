@@ -1,5 +1,9 @@
 # Summer School Hackathon
 
+## Demo 
+
+![Demo](data/demo.png)
+
 ## Objective
 
 Communicate with a huge PDF that contains tables by extracting the data, processing it, and Building Nice Interface to interact with the database.
