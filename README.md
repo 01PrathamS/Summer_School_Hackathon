@@ -1,5 +1,6 @@
 # Summer School Hackathon
 
+![Demo](src/data/demo_electoral_bonds1.png)
 ![Demo](src/data/demo_electoral_bonds.png)
 
 ## Objective
