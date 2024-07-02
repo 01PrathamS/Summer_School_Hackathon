@@ -43,7 +43,7 @@ Aiven provides a hosted MySQL database that makes database operations smoother a
 
 ## Technologies Used
 
--**tebula:** For Extract tables from the pdf
+- **tebula:** For Extract tables from the pdf
 - **Pandas:** For data preprocessing and feature extraction.
 - **SQLAlchemy:** For ORM and database interactions.
 - **Streamlit:** For building the API.
