@@ -1,0 +1,4 @@
+tabula
+pandas
+openai
+sqlalchemy
