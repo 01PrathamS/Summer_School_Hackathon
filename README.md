@@ -68,4 +68,6 @@ Aiven provides a hosted MySQL database that makes database operations smoother a
 - Enhance the API with more advanced querying capabilities.
 - Improve the prompt generation for GPT to handle more complex queries.
 
+## Thanks to MAN PATEL, DHARMIK VALANI
+
 
