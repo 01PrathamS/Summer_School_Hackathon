@@ -11,6 +11,16 @@ Communicate with a huge PDF that contains tables by extracting the data, process
 
 All the pages in the PDF contain the same structure. By extracting the data and converting it into a CSV file, we can preprocess and feature-extract using Pandas. This CSV file can then be converted into a MySQL database. By prompting GPT with table column information and a user query, we can generate SQL queries and execute them against the database using SQLAlchemy. Finally, an API will be built with Streamlit.
 
+## how I define relation between two tables
+
+there are no duplicate values for Prefix + Bond_No. so merging this column and making unique id column
+
+for Purchase table ==> primary key -> Prefix + Bond_No.
+for encashed table ==> foreign key reference from Purchase table(Prefix + Bond_No.)
+
+--> problem here is there are some rows which are in encashed table but not in purchase table -> deleting this rows -> some information loss but it's working.
+--> handling this with defining separate api call for query only related to encashed table --> this way it works
+
 ## Steps to Extract PDF and Add Features
 
 1. **Remove Rows with Column Headers:**
